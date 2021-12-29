@@ -1,0 +1,14 @@
+package math01;
+
+public class Math03 {
+
+	public static void main(String[] args) {
+		
+		// 현재 값에서 가장 가까운 정수를 실수형태로 구함
+		
+	    double a = 3.49999999999;
+	    System.out.println(Math.rint(a));
+
+	}
+
+}

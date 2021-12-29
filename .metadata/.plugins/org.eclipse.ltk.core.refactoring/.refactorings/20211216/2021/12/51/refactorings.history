@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;game.interaction.Bunker&apos; to &apos;Tanker&apos;&#x0A;- Original project: &apos;20211216&apos;&#x0A;- Original element: &apos;game.interaction.Bunker&apos;&#x0A;- Renamed element: &apos;game.interaction.Tanker&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Bunker&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;game.interaction{Bunker.java[Bunker" matchStrategy="1" name="Tanker" qualified="false" references="true" similarDeclarations="false" stamp="1639624774812" textual="false" version="1.0"/>
+</session>

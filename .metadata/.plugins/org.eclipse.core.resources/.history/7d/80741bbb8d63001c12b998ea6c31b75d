@@ -1,0 +1,10 @@
+package exception3;
+
+public class Throw01_361p {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

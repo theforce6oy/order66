@@ -1,0 +1,15 @@
+package string_builder01;
+
+public class Builder08_408p {
+
+	public static void main(String[] args) {
+	
+		StringBuilder a = new StringBuilder("가라나다마");
+		
+		a.reverse();
+		
+		System.out.println(a);
+
+	}
+
+}

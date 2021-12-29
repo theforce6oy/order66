@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/aehobakk/Applications/workspace/20211216(강사).zip"/>
+			<item value="/Users/aehobakk/Applications/workspace/20211213(강사)/src"/>
+			<item value="/Users/aehobakk/Applications/workspace/20211213(강사)"/>
+			<item value="/Users/aehobakk/Desktop/20211213(강사)"/>
+			<item value="/Users/aehobakk/Applications/workspace/20211207(강의)"/>
+			<item value="/Users/aehobakk/Applications/workspace/20211207(강사)"/>
+			<item value="/Users/aehobakk/Desktop/20211207(강사).zip"/>
+			<item value="/Users/aehobakk/Applications/workspace/07(rkdtk)"/>
+			<item value="/Users/aehobakk/Applications/workspace/20211207(rkdtk)"/>
+			<item value="/Users/aehobakk/Applications/workspace/20211203"/>
+			<item value="/Users/aehobakk/Desktop/20211203"/>
+			<item value="/Users/aehobakk/Applications/workspace/211201.zip_expanded/20211201/src"/>
+			<item value="/Users/aehobakk/Desktop/211201.zip"/>
+			<item value="/Users/aehobakk/Applications/workspace/20211201"/>
+			<item value="/Users/aehobakk/Applications/workspace/20211130"/>
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/aehobakk/Applications/workspace/20211207(강의)"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,10 @@
+package system01;
+
+public class TimeCheck01_384p {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

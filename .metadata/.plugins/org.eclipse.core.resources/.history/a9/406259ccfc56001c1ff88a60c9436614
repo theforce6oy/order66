@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class BreakQ01_120p {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("count up below");
+		
+		int a = scan.nextInt();
+		
+		int count = 1;
+	    
+		int total = 0;
+		
+		while(true) {
+			count += total;
+			 System.out.print("1부" + count + "까지 총합은 :" +total+"입니다.");
+			 
+			 if(a >= count) {
+				   System.out.println("목표값:"+count);
+				   System.out.println("총 합:"+total);
+				   System.out.println("몇까지?:"+count);
+				   break;
+			   } 
+			 count++;
+			}
+		}
+		
+
+	
+
+	}
+
+

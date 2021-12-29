@@ -1,0 +1,68 @@
+package math01;
+
+public class Math06Q {
+	
+
+	public static void main(String[] args) {
+		
+		
+		// 가위바위보 게임 만들기
+		// 0 = 가위 1 = 바위 2 = 보
+		
+		int myValue = (int)(Math.random()*3);
+		int comValue = (int)(Math.random()*3);
+		
+		String my = null;
+		String com = null;
+		
+		 if(myValue == 0 && comValue == 0) {
+	            my = "가위";
+	            com = "가위";
+	        }
+	        else if(myValue == 1 && comValue == 1) {
+	            my = "바위";
+	            com = "바위";
+	        }
+	        else if(myValue == 2 && comValue == 2) {
+	            my = "보";
+	            com = "보";
+	        }
+		
+	
+		if (myValue == 0 && comValue == 2 || myValue == 1 && comValue == 0 || myValue == 1 && comValue == 0) {
+			System.out.println("내가 승리함");
+			System.out.println("내값: " + my);
+			System.out.println("컴퓨터 값: " + com);
+		}
+		else if (myValue == 1 && comValue == 2 || myValue == 2 && comValue == 0 || myValue == 0 && comValue == 1) {
+			System.out.println("컴퓨터가 승리함");
+			System.out.println("내값: " + my);
+			System.out.println("컴퓨터 값: " + com);
+		}
+		else if (myValue == 2 && comValue == 2 || myValue == 1 && comValue == 1 || myValue == 0 && comValue == 0) {
+			System.out.println("무승부");
+			System.out.println("내값: " + my);
+			System.out.println("컴퓨터 값: " + com);
+		}
+		
+	      /*if(my.equals("가위") && com.equals("보") || my.equals("바위") && com.equals("가위") || my.equals("보") && com.equals("바위")) {
+	    	    System.out.println("내가 승리함");
+	    	    System.out.println("내값: " + my);
+				System.out.println("컴퓨터 값: " + com);
+	        }
+	        else if (my.equals("바위") && com.equals("보") || my.equals("보") && com.equals("가위") || my.equals("가위") && com.equals("바위")) {
+	        	System.out.println("컴퓨터가 승리함");
+	        	System.out.println("내값: " + my);
+				System.out.println("컴퓨터 값: " + com);
+	        }
+	        else if (my.equals("보") && com.equals("보") || my.equals("가위") && com.equals("가위") || my.equals("바위") && com.equals("바위")) {
+	        	System.out.println("무승부");
+	        	System.out.println("내값: " + my);
+				System.out.println("컴퓨터 값: " + com);
+	        }
+	        */
+	        	
+	}
+	
+	}
+

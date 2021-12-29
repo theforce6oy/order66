@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class BreakQ01_120p {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.ln);
+		System.out.println("count up below");
+		int a = scan.nextInt();
+		
+		while(a<=10) { 
+			 int b = 1; 
+			 System.out.print(b+"부"
+			 while(b<9) {
+				   b++; 
+				   
+				   System.out.println(b + "까지의 총합" + a * b);
+			   }
+			}
+		}
+		
+
+	
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package string01;
+
+public class String11_399p {
+
+	public static void main(String[] args) {
+		
+		//String.valueOf()는 괄호 사이의 자료를 문자열로 바꿔준다.
+		String a = String.valueOf(1000);
+		System.out.println(a);
+		System.out.println(a+1);
+
+	}
+
+}

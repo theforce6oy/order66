@@ -1,0 +1,20 @@
+package string_builder01;
+
+public class Builder07_408p {
+
+	public static void main(String[] args) {
+		
+		// toString()은 내부자료를 String으로 바꿔준다.
+		
+		StringBuilder a = new StringBuilder("가나다라마바사");
+		
+		//String hangul = (String)a; (X)
+		String hangul = a.toString();
+		
+		System.out.println(hangul);
+		
+		String 
+
+	}
+
+}

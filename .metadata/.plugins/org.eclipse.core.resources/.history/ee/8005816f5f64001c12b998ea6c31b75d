@@ -1,0 +1,25 @@
+package string01;
+
+public class String09_399p {
+
+	public static void main(String[] args) {
+		
+		// 기본적으로 문자열은 참조형 변수이기 때문에 
+		// 비교를 할때 [주소값 비교]가 일어난다.
+		
+		String a = new String("테스트");
+		String b = new String("테스트");
+		
+		System.out.println(a);
+		System.out.println(b);
+		
+		System.out.println(a==b);
+		
+		String c = "테스트";
+		String d = "테스트";
+		System.out.println(c==d);
+		
+
+	}
+
+}

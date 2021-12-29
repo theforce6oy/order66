@@ -1,0 +1,18 @@
+package arrays01;
+
+import java.util.Arrays;
+
+public class Arrays02 {
+
+	public static void main(String[] args) {
+		
+		// Arrays.copyof()
+		// 특정한 배열을 시작부터 n개만 잘라 복사한다.
+		
+		int[] arr = {1,2,3,4,5};
+		
+		int[] arrCopy = Arrays.copyOf(arr, 3);
+
+	}
+
+}

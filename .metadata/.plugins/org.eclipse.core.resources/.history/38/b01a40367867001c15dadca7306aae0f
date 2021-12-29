@@ -1,0 +1,33 @@
+package random01;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Random02_484p {
+
+	public static void main(String[] args) {
+		
+		// Random 객체를 생성하고 nextboolean()을 이용해 동전던지기 카운팅 만들기
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("동전을 던질 횟수");
+		
+		int n = scan.nextInt();
+		
+		System.out.println(n+"바퀴 돌린 결과값");
+		
+        Random r = new Random();
+		
+		int bool = random.nextBoolean();
+		
+		System.out.println("앞면:" + );
+		System.out.println("뒷면:" + );
+		
+		
+		
+		
+
+	}
+
+}

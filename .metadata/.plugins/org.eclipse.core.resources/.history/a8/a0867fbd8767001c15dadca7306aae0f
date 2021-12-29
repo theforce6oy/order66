@@ -1,0 +1,36 @@
+package collection01;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayList02_447p {
+
+	public static void main(String[] args) {
+		
+		// String 자료를 가변배열로 받을 수 있는 ArrayList 만들기
+		
+		List<String> strlist = new ArrayList</*String*/>();
+		
+		strlist.add("사과");
+		strlist.add("딸기");
+		strlist.add("망고");
+		strlist.add("블루베리");
+		strlist.add("파인애플");
+		
+		System.out.println(strlist);
+		
+		// .contains("자료")는 리스트내에 찾는 자료가 있으면 true
+		// 없으면 false를 출력해준다.
+		System.out.println(strlist.contains("사과"));
+		System.out.println(strlist.contains("메론""));
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

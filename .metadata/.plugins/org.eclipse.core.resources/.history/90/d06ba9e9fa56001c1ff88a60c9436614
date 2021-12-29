@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class BreakQ01_120p {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.ln);
+		System.out.println("count up below");
+		int a = scan.nextInt();
+		
+		while(a<=10) { 
+			 int b = 1; 
+			 while(b<9) {
+				   b++; 
+				   
+				   System.out.println(a + "*" + b + "=" + a * b);
+			   }
+			}
+		}
+		
+
+	
+
+	}
+
+}

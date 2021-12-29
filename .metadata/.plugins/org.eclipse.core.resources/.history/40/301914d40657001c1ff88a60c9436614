@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class ContinueQ1_123p {
+
+	public static void main(String[] args) {
+		
+	Scanner scan = new Scanner(System.in);
+	System.out.println("import int below");
+	int n = scan.nextInt();
+	
+	int a = 1;
+	while(ture) {
+		
+	}
+		
+	}
+
+}

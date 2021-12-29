@@ -1,0 +1,39 @@
+package string01;
+
+import java.util.Scanner;
+
+public class String03_399p {
+
+	public static void main(String[] args) {
+		
+		// Scanner를 통해 전체 문장을 입력받기
+		// 문장내에서 찾고싶은 단어를 추가로 입력받기
+		// 문장내에 있는 단어들의 인덱스번호와 몇개가 검출되었는지 출력해보기
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("전체 문장을 입력");
+		String sentence = scan.nextLine();
+		
+	    System.out.println("문장내에서 카운팅할 단어를 입력");
+	    String searchVoca = scan.nextLine();
+	   
+	    System.out.println("인덱스 번호");
+		int getIt = sentence.indexOf(searchVoca);
+		System.out.println(getIt);
+		
+		System.out.println("검출된 단어 갯수");
+		int howmany = 0;
+		for (int i = 0; i < sentence.length(); i++) {
+		if (sentence.indexOf(searchVoca) == 0) {
+	    howmany++;
+		}
+		System.out.println(howmany+"개");
+		}
+			
+	}	
+
+	}
+
+	
+
+

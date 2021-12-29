@@ -1,0 +1,27 @@
+package collection01;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayList02_447p {
+
+	public static void main(String[] args) {
+		
+		// String 자료를 가변길이로 받을수 있는 ArrayList 만들기
+		
+		List<String> strlist = new ArrayList<>();
+		
+		strlist.add("사과");
+		strlist.add("딸기");
+		strlist.add("망고");
+		strlist.add("블루베리");
+		strlist.add("파인애플");
+		
+		System.out.println(strlist);
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,35 @@
+package math01;
+
+public class Math06Q {
+
+	public static void main(String[] args) {
+		
+		// 가위바위보 게임 만들기
+		// 0 = 가위 1 = 바위 2 = 보
+		
+		int myValue = (int)(Math.random()*3);
+		int comValue = (int)(Math.random()*3);
+		
+		if(myValue = 0 && comValue = 2) {
+			System.out.println("내가 이겼습니다.");
+			System.out.println("나의 값: 가위");
+			System.out.println("컴퓨터 값: 보");
+		}
+		else if(myValue = 1 && comValue = 2) {
+			System.out.println("컴퓨터가 이겼습니다.");
+			System.out.println("나의 값: 바위");
+			System.out.println("컴퓨터 값: 보");
+		}
+		else if(myValue = 1 && comValue = 2) {
+			System.out.println("컴퓨터가 이겼습니다.");
+			System.out.println("나의 값: 바위");
+			System.out.println("컴퓨터 값: 보");
+		
+		
+		
+		
+		
+
+	}
+
+}

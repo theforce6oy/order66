@@ -1,0 +1,14 @@
+package string01;
+
+public class String04_399p {
+
+	public static void main(String[] args) {
+		
+		// length()는 문자열의 길이를 알 수 있습니다.
+		// 정수로 몇 글자인지 알려준다.
+	String name = "김수한무거북이와두루미어쩌고저쩌고 시발시바리시발";
+	System.out.println(name.length());
+
+	}
+
+}

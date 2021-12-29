@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;game.polymorphism.undead&apos; to &apos;Monster&apos;&#x0A;- Original project: &apos;20211217&apos;&#x0A;- Original element: &apos;game.polymorphism.undead&apos;&#x0A;- Renamed element: &apos;game.polymorphism.Monster&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;undead&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;game.polymorphism{undead.java[undead" matchStrategy="1" name="Monster" qualified="false" references="true" similarDeclarations="false" stamp="1639718305456" textual="false" version="1.0"/>
+</session>

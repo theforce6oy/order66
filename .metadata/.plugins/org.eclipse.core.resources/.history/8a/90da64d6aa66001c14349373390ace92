@@ -1,0 +1,12 @@
+package string_builder02;
+
+public class Math01 {
+
+	public static void main(String[] args) {
+		
+		//Math는 import없이 쓸 수 있다.
+		
+
+	}
+
+}

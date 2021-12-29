@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;heapmemory.ArrayComparision&apos; to &apos;ArrayComparison&apos;&#x0A;- Original project: &apos;20211213&apos;&#x0A;- Original element: &apos;heapmemory.ArrayComparision&apos;&#x0A;- Renamed element: &apos;heapmemory.ArrayComparison&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ArrayComparision&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;heapmemory{ArrayComparision.java[ArrayComparision" matchStrategy="1" name="ArrayComparison" qualified="false" references="true" similarDeclarations="false" stamp="1639360248524" textual="false" version="1.0"/>
+</session>
